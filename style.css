@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+    background-color: rgb(36, 37, 37);
+
+}
+.dd li  {
+    display: inline;
+    font-weight:lighter;
+    background-color: rgb(36, 37, 37);
+    padding: 1%;
+
+    }
+
+    .cc {
+        text-align: center;
+
+    }
+    .hey p{
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+    }
+
+    .hey {
+        text-align: center;
+        color: red;
+
+    }
+    .tell {
+        text-align: center;
+       margin-top: 30px;
+       width: 100%;
+        /* height: 250px; */
+        /* border: 1px solid red; */
+        display: block;
+        padding: 20px;
+        
+    }
+.tell form {
+    border: 1px solid red
+    ;
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+h1{ 
+    font-weight: bold;
+    background-color: #333;
+    color: black;
+    padding: .5em;
+
+}

@@ -1,96 +1,141 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <nav><ul>
-            <li>home</li>
-            <li> about</li>
-            <a href="#contact" ><li> contact</li></a>
-            <li>servies</li>
-            <a  href="#skills"><li>skills</li></a>
-        </ul></nav>
-        <title>
-            my fisrt page 
-        </title>
-    </head>
-    <body>
-        <h3>Hello</h3>
-        <h1>welcome to my page </h1>
-            <section>
-                <h2> how learing new skills is useful for you?</h2>
-                <span>
-                    Whether you’re bored, have extra time on your 
-                    hands or want to get out of a rut, learning a new skill can give you the mental and physical boost you need.
 
-                     “We’re meant to grow, stretch, extend and expand,”
-                    Dennis Buttimer, M.Ed, CEAP, RYT, CHC, a life and wellness coach at Cancer Wellness at Piedmont. “As you learn new skills
-                    , you’ll discover more gifts about yourself
-                     and improve your confidence and sense of well-being. You can also positively affect others with your new skills.”
-                </span>
-                <iframe
-                width="420" height="315" src="https://www.youtube.com/watch?v=gVw2l6JHIZE&ab_channel=MarkBell%27sPowerProject"></iframe>
-            </section>
-        <section>
-            <h1> tell me  about yourself </h1>
-            <label>  fisrt name    :</label>
-            <input type="text" name="fisrt name" placeholder="type your name"/><br>
-            <br>
-            <label> age                 :</label>
-            <input type="number" name="number" placeholder="type your age!"/><br>
-            <br>
-            <label> birth date        : </label>
-            <input type="date" name="your birth date " placeholder="type"/><br><br>
-            <label>servies</label>
-            <select>
-                <option value="web desing">web </option>
-                <option value="games  ">games </option>
-                <option value="data science">data science </option>
-                <option value="web development">web development </option>
-               
-            </select></section><br>
+<head>
 
-            <label> single </label> <input type="radio" name="single"/> <label>taken</label> <input type="radio" name="taken"/>
+    <link rel="stylesheet" href="style.css">
+    <title>
+        my fisrt page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
 
-        </section>
-        <section>
-            <a name="skills"><h1>my skills</h1></a>
-            <h2> programming languages </h2>
+<body>
+    <header class="dd">
+        <nav>
             <ul>
-                <a href="https://fr.wikipedia.org/wiki/Python_(langage)" ><li>python</li></a>
-                <a href="https://fr.wikipedia.org/wiki/Java_(langage)"><li>java</li></a>
-                <a href="https://fr.wikipedia.org/wiki/C%2B%2B"><li>c++</li></a>
+                <a herf="#home">
+                    <li>home</li>
+                </a>
+                <a href="#about">
+                    <li> about</li>
+                </a>
+                <a href="#contact">
+                    <li> contact</li>
+                </a>
+                <a href="#servies">
+                    <li>servies</li>
+                </a>
+                <a href="#skills">
+                    <li>skills</li>
+                </a>
             </ul>
-            <h1>Web Languages</h1>
-            <ol>
-                <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" ><li>css</li></a>
-                <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language"><li>html</li></a>
-                <a href="https://fr.wikipedia.org/wiki/JavaScript"><li>javascripte</li></a>
-            </ol>
+        </nav>
+    </header>
+    <a name="home"></a>
+    <div class="cc">
+        <h1>Hello</h1>
+        <h2>welcome to my page </h2>
+    </div>
+    <section class="hey">
+        <h2> how learing new skills is useful for you?</h2>
+        <p>
+            Whether you’re bored, have extra time on your
+            hands or want to get out of a rut, learning a new skill can give you the mental and physical boost you need.
 
-        </section>
+            “We’re meant to grow, stretch, extend and expand,”
+            Dennis Buttimer, M.Ed, CEAP, RYT, CHC, a life and wellness coach at Cancer Wellness at Piedmont. “As you
+            learn new skills
+            , you’ll discover more gifts about yourself
+            and improve your confidence and sense of well-being. You can also positively affect others with your new
+            skills.”
+        </p>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/FQdaUv95mR8?si=SfJ8azFMAoQy6ZtL"></iframe>
+    </section>
+    <section class="tell">
+        <form>
+        <a name="about"></a>
+        <h1> tell me about yourself </h1>
+        <label> fisrt name :</label>
+        <input type="text" name="fisrt name" placeholder="type your name" /><br>
+        <br>
+        <label> age :</label>
+        <input type="number" name="number" placeholder="type your age!" /><br>
+        <br>
+        <label> birth date : </label>
+        <input type="date" name="your birth date " placeholder="type" /><br><br>
+        <label>servies</label>
+        <select>
+            <option value="web desing">web </option>
+            <option value="games  ">games </option>
+            <option value="data science">data science </option>
+            <option value="web development">web development </option>
 
-    </body>
-    <footer>
-        <table border="2" >
-            
-            <tr>
-                <th colspan=" 2" > my contact </th>
-            </tr>
-            <tr>
-            <th colspan=" 2">my number</th></tr>
-            <td colspan=" 2">  58458934</td>
-            </tr>
-            <tr>
-                <th colspan=" 2">my platformes</th>
-            </tr>
-            <tr>
-                <td><a href="https://www.facebook.com/azer.chaabane33.kk/">facebook</td>
-                <td><a href="https://www.instagram.com/">instgarme</a></td>
-            </tr>
+        </select><br>
 
-        </table>
-        <a name="contact"></a>
+        <label> single </label> <input type="radio" name="single" /> <label>taken</label> <input type="radio"
+            name="taken" />
+        </form>
+
+    </section>
+    <section id="skills">
+        <a name="skills">
+            <h1>my skills</h1>
+        </a>
         
+        <h2> programming languages </h2>
+        <ul>
+            <a href="https://fr.wikipedia.org/wiki/Python_(langage)">
+                <li>python</li>
+            </a>
+            <a href="https://fr.wikipedia.org/wiki/Java_(langage)">
+                <li>java</li>
+            </a>
+            <a href="https://fr.wikipedia.org/wiki/C%2B%2B">
+                <li>c++</li>
+            </a>
+        </ul>
+        <h2>Web Languages</h2>
+        <ol>
+            <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade">
+                <li>css</li>
+            </a>
+            <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">
+                <li>html</li>
+            </a>
+            <a href="https://fr.wikipedia.org/wiki/JavaScript">
+                <li>javascripte</li>
+            </a>
+        </ol>
 
-        <h1> thank you for your time  </h1>
-    </footer>
+    </section>
+
+</body>
+<footer>
+    <h1>my contact</h1>
+    <table border="2">
+
+        
+        <tr>
+            <th colspan=" 2">my number</th>
+        </tr>
+        <td colspan=" 2"> 58458934</td>
+        </tr>
+        <tr>
+            <th colspan=" 2">my platformes</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.facebook.com/azer.chaabane33.kk/">facebook</td>
+            <td><a href="https://www.instagram.com/">instgarme</a></td>
+        </tr>
+
+    </table>
+    <a name="contact"></a>
+
+
+    <h1> thank you for your time </h1>
+</footer>
+
 </html>
